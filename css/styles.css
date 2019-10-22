@@ -1,0 +1,214 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: center / cover no-repeat url('../images/stars.jpg');
+}
+
+.content {
+	width: 90%;
+}
+
+.wrapper {
+	width: 80%;
+}
+
+h1 {
+	color: white;
+	font-size: 2rem;
+}
+
+/* ================================
+    NAVIGATION
+================================ */
+nav {
+	border-bottom: 2px solid white;
+	display: flex;
+	justify-content: center;
+	padding: 12px 0;
+	width: 100%;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#primary-menu {
+	display: flex;
+	list-style-type: none;
+}
+
+.menu-item {
+	margin-left: 10px;
+	background: blue;
+	border-radius: 10px;
+}
+
+.menu-link {
+	font: normal 400 1rem/1.5 'Open Sans', Arial;
+	color: white;
+	display: block;
+	text-decoration: none;
+	padding: 5px 15px;
+	transition: all linear 0.5s;
+}
+
+.menu-link:hover {
+	color: #d5e8f5;
+	border-radius: 10px;
+	background:#021740;
+}
+
+/* ================================
+    HEADER
+================================ */
+header {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.header-info {
+	background: #032059;
+	padding: 20px;	
+	/* display: flex; */
+}
+
+.header-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	width: 250px;
+	border-radius: 50%;
+}
+
+.header-title {
+	color: #fff;
+	font: normal 800 3.2rem/1.5 'Big Shoulders', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.75);
+}
+
+.header-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+button {
+	border: 1px solid #4b39bf;
+	border-radius: 10px;
+	color: #1a2440;
+	font-size: 1.5em;
+	padding: 15px 30px;
+}
+
+/* ================================
+    MAIN CONTENT
+================================ */
+main#main-content {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	width: 100%;
+}
+
+.content-row {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+}
+
+article {
+	display: flex;
+	align-items: center;
+	background: #4B72A6;
+	width: 50%;
+	padding: 30px;
+}
+
+.article-img {
+	max-width: 90%;
+	margin: 10px;
+	border: 2px solid black;
+	box-shadow: 10px 10px;
+}
+
+.article-p {
+	width: 120px;
+	font-size: 1.5em;
+}
+
+.article-title {
+	color: lightblue;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 32px;
+	text-align: center;
+	padding: 10px;
+}
+
+/* ================================
+    SIDE BAR
+================================ */
+.sidebar {
+	background: #4B72A6;
+	width: 25%;
+	padding: 30px;
+}
+
+.sidebar-title {
+	font-size: 24px;
+	text-align: center;
+	padding: 10px;
+}
+
+.sidebar-list {
+	padding: 10px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+ol {
+	list-style-type: decimal;
+	color: darkgreen;
+}
+
+footer {
+	font-size: 24px;
+	color: white;
+	padding: 20px;
+	bottom: 0px;
+	width: 100%;
+	position: fixed;
+}
+
+/* Color Theme Swatches in Hex */
+.stars-1-hex {
+	color: #010626;
+}
+
+.stars-2-hex {
+	color: #032059;
+}
+
+.stars-3-hex {
+	color: #021740;
+}
+
+.stars-4-hex {
+	color: #4B72A6;
+}
+
+.stars-5-hex {
+	color: #1F6373;
+}
